@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    </head>
+    <body bgcolor="grey">
+        <div class = "card">
+            <img src="img/img30.jpg" id="cardbg">
+            <div class="card-run">
+                <div>RUN</div>
+                <div>Date:&nbsp&nbsp<a id="date">2022.03.14</a></div>
+            </div>
+            <div class="logo">
+                <img src="img/zhang.jpg" id="mylogo">
+            </div>
+
+            
+
+            <div class="card-info">
+                <div id="distance">Distance: 1.5km</div>
+                <div id="time">Time: 10min16s</div>
+            </div>
+
+            <div class="app">
+                Sports Card
+            </div>
+
+            <p id="nickname">@preference</p>
+
+        </div>
+
+    </body>
+
+    <script>
+
+        // $("#date").val(prompt("请输入今天日期,格式XXXX.XX.XX"));
+        // $("#nickname").val(prompt("请输入昵称"));
+        // $("#time").val(prompt("请输入时间，格式XXminXXs"));
+        // $("#distance").val(prompt("请输入路程，包括单位"));
+
+        //prompt("请输入今天日期,格式XXXX.XX.XX")
+
+        document.getElementById("date").innerText = prompt("请输入今天日期,格式XXXX.XX.XX")
+        document.getElementById("nickname").innerText = "User: @" + prompt("请输入昵称")
+        document.getElementById("time").innerText = "Time: "+ prompt("请输入时间，格式XXminXXs")
+        document.getElementById("distance").innerText = "Distance: " + prompt("请输入路程，包括单位")
+        document.getElementById("mylogo").src = prompt("请输入头像地址")
+
+    </script>
+
+
+
+</html>
+

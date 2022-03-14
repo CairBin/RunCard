@@ -1,0 +1,102 @@
+.card
+{
+    border-radius:5px 0;  
+    background:white;
+    width:100%;
+    height:40%; 
+}
+
+.card img
+{
+    position:absolute;
+    border-radius: 0;
+    width: 100%;
+    height: 40%;
+}
+
+
+.card-run
+{
+    position:absolute;
+    z-indent:2;
+    left:5%;
+    top:5%;
+    font-family: Comic Sans MS;
+    color:white;
+}
+
+.card-run :nth-child(1)
+{
+    font-size: 35px;
+}
+
+.card-run:nth-child(2)
+{
+    font-size: 20px;
+}
+
+.card-info
+{
+    position:absolute;
+    z-indent:2;
+    right:3%;
+    top:25%;
+    font-family: Comic Sans MS;
+    color:white;
+}
+
+.card-info :nth-child(1)
+{
+    font-size:18px;
+}
+
+.card-info :nth-child(2)
+{
+    font-size:18px;
+}
+
+
+.logo
+{
+    position:absolute;
+    z-indent:2;
+    right:2%;
+    top:5%;
+    width: 15%;
+    height: 15%;
+}
+
+.logo img
+{
+    position:absolute;
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    overflow: hidden;
+    right:10px;
+}
+
+
+.app
+{
+    position:absolute;
+    top:37%;
+    right:1%;
+    font-family: Comic Sans MS;
+    color:white;
+}
+
+#date
+{
+    font-size: 20px;
+}
+
+#nickname
+{
+    position:absolute;
+    z-indent:2;
+    left:2%;
+    top:35%;
+    font-family: Comic Sans MS;
+    color:rgb(176, 176, 211);
+}
